@@ -17,4 +17,6 @@ for file in os.listdir(directory):
         file.write(pageText)
         file.close()
 
-# TODO: fix no objects found error
+#TODO: 
+# iterate through docs to make sure they're actually pdfs
+# Remove unwanted characters, IE ‖, ‗, ―
